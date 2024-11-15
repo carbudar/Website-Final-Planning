@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Website Final Planning</title>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+
+</head>
+
+<body style="background-color: rgb(23, 23, 23); font-family: helvetica; margin:3vw;">
+
+	<h2 style="text-align: center;background-color: white; border-radius: 5px; font-size: 200%;color: rgb(255, 1, 124);height:5vh; border-bottom: dashed rgb(255, 242, 0) 3px;">S H A P E S</h2>
+
+	<div class="images" style="background-color: rgb(221, 221, 221); border-radius: 7px;">
+		<img src="assets/circle.png" style="width:30vw">
+		<img src="assets/triangle.png"style="width:30vw">
+		<img src="assets/square.png"style="width:30vw">
+	</div>
+
+	<script src="sketch.js"></script>
+
+
+	<div class="reflection" style="background-color: aliceblue; border-radius: 5px; text-align: center; border: solid 3px salmon; margin:4vh;">
+		<h2 style="color: rgb(0, 40, 121);">
+			Final Project
+		</h2>
+		<p style="line-height: 150%; padding: 2vw;">My final project will most likely be based on the last prompt, independent project, though I think I will lean more/ be inspired by the game prompt.<br>
+		I am making color-based game where the main objective is for the user to find the red (255,0,0) color from a grid of different colors. I was inspired by a game that I played when I was younger, where I had to find a strawberry in a grid full of random colors (?) I kind of forgot lol. <br><br>
+		First, I will make a set of grid on the screen, amount of rows and columns will depend on screen size. Each square has 2 layer, a colored layer, and a white layer over it which hides the colors. The colored grids will gradually be less saturated the further it is from the red square - I will probably use map and/or distance for this effect. When the square is clicked, the white layer will turn down its opacity, revealing the colored layer behind. This should be a clue for the player to choose the next square. When the red square is found, the game will then again generate a red square in a randomized position with smaller grids, so the game has no end sort of. 
+		</p>
+		<img src="assets/IMG_6414.jpeg" style="width:40%; margin:2vw">
+	</div>
+	
+</body>
+
+</html>
